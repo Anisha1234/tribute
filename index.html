@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+    		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="stylesheet" type="text/css" href="./css/main.css">
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./js/jquery.min.js">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<title>Tribute page</title>
+</head>
+<body>
+	<div id="bg">
+		<div class="content-section-a">
+
+          <div class="container">
+               <div class="jumbotron">
+                    <div class="jumbotron heading">
+                    <p class="headerimg"><img src="data:image/jpeg;base64,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"> </p>
+                    <br> 
+                    <i>A TRIBUTE TO THOMAS ALVA EDISON</i>
+                    <br>
+                    <i>(1847 - 1931)</i>
+                    <hr>
+                    </div>
+                    <div class="row">
+                              <div class="col-lg-5 col-lg-offset-2 col-sm-6 tribute">
+                                   <img class="img-responsive" src="data:image/jpeg;base64,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" alt="">
+                              </div>
+                              <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                                   <div class="clearfix">
+                                        <p>edison had a splendid personality and was an amazing person.his biggest and revolutionary invension was electric bulb hhhffl  iygigl g i i7 igigtugb iugiul li uiyhu ygy kol  ff iihu gtf gyfch yfydtrstrd ffvhjb hjnhgy  ugug maxn knxk kqjqejd kwj knwkn kdjoqwdqwodk nkcqkm kcwejdqeod knkQMDQL  cnqkdxmn kdnqkdxmQ KNQDMqL KNCKQMDQLQ KNCQKCM kkkjbvoe kvnevmkmek</p>
+                                   </div>
+                              </div>
+                              
+                    </div><!-- row -->
+                    
+                    <div class="jumbotron heading2">
+                         <i>KNOW HIM MORE !</i>
+                    </div>
+                    <div class="jumbotron ending">
+                         <p><i>"I haven't failed. I have just found 10,000 ways that won't work"</i></p>
+                         <br>
+                         <p>( Thomas A. Edison )</p>
+                    <div class="jumbotron describe">
+                         <h2><i>Early Life</i></h2>
+                         <hr>
+                         <p><i>Thomas Edison was born in Milan, Ohio, and grew up in Port Huron, Michigan. He was the seventh and last child of Samuel Ogden Edison, Jr. (1804–1896, born in Marshalltown, Nova Scotia) and Nancy Matthews Elliott (1810–1871, born in Chenango County, New York).His father, the son of a Loyalist refugee, had moved as a boy with the family from Nova Scotia, settling in southwestern Ontario (then called Upper Canada), in a village known as Shewsbury, later Vienna, by 1811. Samuel Jr. eventually fled Ontario because he took part in the unsuccessful Mackenzie Rebellion of 1837.His father, Samuel Sr., had earlier fought in the War of 1812 as captain of the First Middlesex Regiment. By contrast, Samuel Jr.'s struggle found him on the losing side, and he crossed into the United States at Sarnia-Port Huron. Once across the border, he found his way to Milan, Ohio. His patrilineal family line was Dutch by way of New Jersey; the surname had originally been Edeson.</i></p>[<i>Src. <a href="https://en.wikipedia.org/wiki/Thomas_Edison">WIKIPEDIA</a></i>]
+                         <h2><i>Tributes</i></h2>
+                         <hr>
+                         <p><i>Several places have been named after Edison, most notably the town of Edison, New Jersey. Thomas Edison State University, nationally known for adult learners, is in Trenton, New Jersey. Two community colleges are named for him: Edison State College in Fort Myers, Florida, and Edison Community College in Piqua, Ohio.There are numerous high schools named after Edison (see Edison High School) and other schools including Thomas A. Edison Middle School. Footballer Pelé's father originally named him Edson, as a tribute to the inventor of the light bulb, but the name was incorrectly listed on his birth certificate as "Edison".
+                         In West Orange, New Jersey, the 13.5 acres (5.5 hectares) Glenmont estate is maintained and operated by the National Park Service as the Edison National Historic Site, as is his nearby laboratory and workshops including the reconstructed Black Maria- the world's first movie studio.[115] The Thomas Alva Edison Memorial Tower and Museum is in the town of Edison, New Jersey.[116] In Beaumont, Texas, there is an Edison Museum, though Edison never visited there.The Port Huron Museum, in Port Huron, Michigan, restored the original depot that Thomas Edison worked out of as a young newsbutcher. The depot has been named the Thomas Edison Depot Museum.[118] The town has many Edison historical landmarks, including the graves of Edison's parents, and a monument along the St. Clair River. Edison's influence can be seen throughout this city of 32,000.</p>[<i>Src. <a href="https://en.wikipedia.org/wiki/Thomas_Edison">WIKIPEDIA</a></i>]
+                         
+                    </div>
+                    <div class="row">
+                    <div class="row2">
+                              
+                         <div class="col-sm-6 col-md-4">
+                              <div class="thumbnail">
+                                   <img class="img-responsive bulb" src="image/bulb.gif" alt="">
+                                   <div class="caption row">
+                                        <h3></h3>
+                                        <br>
+                                        <p><i>Thomas Edison's favourite holiday was 4th of july;and he had made his own fireworks to celebrate the day with some really loud boomers too :-)</i></p>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-sm-6 col-md-4 facts">
+                              <div class="thumbnail">
+                                   <img class="img-responsive bulb" src="image/bulb.gif" alt="">
+                                   <div class="caption">
+                                        <h3></h3>
+                                        <br>
+                                        <p><i>Edison had the most favourite and recognizable face in the world, when newspaper and magazines were the chief means of communicating news.</i></p>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="col-sm-6 col-md-4 facts">
+                              <div class="thumbnail">
+                                   <img class="img-responsive bulb" src="image/bulb.gif" alt="">
+                                   <div class="caption">
+                                        <h3></h3>
+                                        <br>
+                                        <p><i>Edison was responsible for the words like "Hello" on the telephone; and "bugs" in unproven invension and new systems.</i></p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    </div><!--row-->
+               </div>
+          <div class="footer">
+          <i>designed by <a href="">Anisha Swain</a></i>
+          </div>
+                  
+          </div><!--jumbotron-->
+          </div>
+        <!-- /.container -->
+    
+    </div>
+    <!-- /.content-section-a -->
+	</div>
+     
+</body>
+</html>
